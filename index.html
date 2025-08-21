@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio — Hafidz Anjis Kamaludin</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+  <link href="https://unpkg.com/lucide-static/font/lucide.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-800">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="font-semibold tracking-tight">
+        Hafidz<span class="text-slate-500">.Portfolio</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-2">
+        <a href="#profil" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Profil</a>
+        <a href="#pendidikan" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Pendidikan</a>
+        <a href="#organisasi" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Organisasi</a>
+        <a href="#magang" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Magang</a>
+        <a href="#pelatihan" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Pelatihan</a>
+        <a href="#keterampilan" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Keterampilan</a>
+        <a href="#kontak" class="px-3 py-1.5 rounded-full hover:bg-slate-100 text-sm">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top" class="mx-auto max-w-6xl px-4 py-10 md:py-14 space-y-8">
+    <!-- Profil Card -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-16 rounded-2xl bg-slate-900 text-white flex items-center justify-center text-2xl font-bold">HK</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight">Hafidz Anjis Kamaludin</h1>
+            <p class="text-slate-600 text-sm">Fresh Graduate — S1 Administrasi Publik (K. Rembang), Universitas Diponegoro</p>
+            <p class="text-slate-600 text-sm">IPK 3.54</p>
+          </div>
+        </div>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <a href="mailto:hafidzazka03@gmail.com" class="inline-flex items-center gap-2 rounded-full border px-4 py-2 hover:shadow transition"><i class="lucide lucide-mail"></i> hafidzazka03@gmail.com</a>
+          <a href="https://www.linkedin.com/in/hafidzanjisk" target="_blank" class="inline-flex items-center gap-2 rounded-full border px-4 py-2 hover:shadow transition"><i class="lucide lucide-linkedin"></i> LinkedIn</a>
+          <a href="https://wa.me/6285962751307" target="_blank" class="inline-flex items-center gap-2 rounded-full border px-4 py-2 hover:shadow transition"><i class="lucide lucide-phone"></i> WhatsApp +6285962751307</a>
+        </div>
+      </div>
+
+      <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+        <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-shield-check"></i> Profil Singkat</h2>
+        <p class="leading-relaxed text-sm md:text-base">Saya merupakan fresh graduate S1 Administrasi Publik K. Rembang Universitas Diponegoro Semarang dengan IPK 3.54. Saya memiliki minat pada bidang manajemen sumber daya manusia, kepemimpinan dalam organisasi, komunikasi organisasi publik, dan manajemen publik. Berpengalaman dalam organisasi kemahasiswaan dan uji kompetensi pelatihan profesional. Saya berkomitmen untuk berkontribusi pada peningkatan tata kelola organisasi publik maupun swasta.</p>
+      </div>
+
+      <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+        <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-award"></i> Keterampilan</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="inline-flex items-center px-3 py-1 rounded-full border text-sm">Manajemen SDM</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full border text-sm">Administrasi Publik</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full border text-sm">Komunikasi Efektif</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full border text-sm">Leadership</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full border text-sm">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2 space-y-6">
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+          <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-graduation-cap"></i> Pendidikan</h2>
+          <ul class="space-y-3">
+            <li><span class="font-medium">S1 Administrasi Publik (K. Rembang) — Universitas Diponegoro</span><br><span class="text-slate-600 text-sm">2021 – 2025</span></li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+          <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-users"></i> Pengalaman Organisasi & Kepanitiaan</h2>
+          <ul class="space-y-3 text-sm">
+            <li><b>Anggota Divisi Pengembangan Kreativitas</b> — HMI Cabang Kudus Komisariat Cheng Ho Rembang (2023 – Sekarang)</li>
+            <li><b>Anggota Divisi Media Kreatif dan Informasi</b> — HMPS AP Rembang, Universitas Diponegoro (2022 – 2023)</li>
+            <li><b>Peserta Seminar IAP-FISIP UNDIP 2023</b> — FISIP, Universitas Diponegoro (2023)</li>
+            <li><b>Panitia APREXISTENCE 2022</b> — HMPS AP Rembang, Universitas Diponegoro (2022)</li>
+            <li><b>Panitia Kesma Peduli Sesama</b> — HMPS AP Rembang, Universitas Diponegoro (2022)</li>
+            <li><b>Panitia PSDKU Nasional Forum 2022</b> — HMPS AP Rembang, Universitas Diponegoro (2022)</li>
+            <li><b>Panitia Webinar Nasional Publikarya 2022</b> — HMPS AP Rembang, Universitas Diponegoro (2022)</li>
+            <li><b>Panitia Lomba MORSENI 2022</b> — HMPS AP Rembang, Universitas Diponegoro (2022)</li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+          <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-briefcase"></i> Pengalaman Magang</h2>
+          <ul class="space-y-3 text-sm">
+            <li><b>Tim Sekretariat & Liaison Officer — Cabor Wushu</b> — Event PORPROV XVI JATENG 2023, KONI Kab. Rembang (2023)</li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+          <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-award"></i> Pelatihan</h2>
+          <ul class="space-y-3 text-sm">
+            <li><b>Pelatihan Supervisor Sumber Daya Manusia</b> — LPP Kaesang Pamulang Negara (2024)</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="space-y-6">
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5">
+          <h2 class="flex items-center gap-2 text-xl font-semibold mb-4"><i class="lucide lucide-phone"></i> Kontak</h2>
+          <div class="space-y-3 text-sm">
+            <p><i class="lucide lucide-mail"></i> hafidzazka03@gmail.com</p>
+            <p><i class="lucide lucide-phone"></i> +6285962751307</p>
+            <p><i class="lucide lucide-linkedin"></i> <a href="https://www.linkedin.com/in/hafidzanjisk" target="_blank" class="hover:underline">LinkedIn</a></p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border bg-white/70 backdrop-blur shadow-sm p-5 text-sm text-slate-600">
+          Ingin versi PDF (CV) atau menambah Ijazah/Transkrip/Sertifikat? Kirimkan berkasnya dan saya tambahkan tombol unduh di sini.
+        </div>
+      </aside>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="mt-12 border-t pt-6 pb-10 text-sm text-slate-500">
+      <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-3">
+        <p>© 2025 Hafidz Anjis Kamaludin. Dibuat dengan HTML & Tailwind.</p>
+        <a href="#top" class="px-3 py-1.5 rounded-full border hover:bg-slate-50">Kembali ke atas</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
